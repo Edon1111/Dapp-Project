@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_money",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Dapp/Receiver.sol": "Receiver"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Dapp/Receiver.sol": {
+			"keccak256": "0xd59f9624a82d1b8a1eaf888c4fc35f5fa597138520ae60586ec4c5f3bc767cd3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://befc83b1443fd733cea03bd0f3c05318aa2c0c0b5dcc89073857cb620d515ea8",
+				"dweb:/ipfs/QmPeYgBRadsV18QaRHQLbdxMFAcp4N5vC8ipAHegeNrmqF"
+			]
+		}
+	},
+	"version": 1
+}

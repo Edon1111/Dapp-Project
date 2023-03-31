@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Dapp/MoneyTransfer.sol": "Transactions"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Dapp/MoneyTransfer.sol": {
+			"keccak256": "0x0302c8c57e5beb3f6a2e63166d35d2539db6ee1d327633e52507d9d76abd1df0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://951cb0d58611901974d4a06ff060bb6ff05f2fcb072bc76c96ee7538187f3c75",
+				"dweb:/ipfs/QmNn2mWQEJrDhtwv9BGBDYisSHvcB1S9twpNPrXv2CLKw7"
+			]
+		}
+	},
+	"version": 1
+}
